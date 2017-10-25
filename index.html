@@ -7,7 +7,7 @@
 </head>
   <body>
   <!--content goes here-->
-  <form id="sample-form">
+  <form id="sample_form">
     <fieldset>
       <label for="first">First name:</label>
       <input type="text" name="first" placeholder="First name" required>
@@ -21,9 +21,9 @@
       <input type="checkbox" name="enrolled" value="Enrolled?">
     </fieldset>
     <fieldset>
-      <label for="future-classes">Interested in future courses?</label>
-      <input type="radio" name="future-classes" value="yes">Yes
-      <input type="radio" name="future-classes" value="no">No
+      <label for="future_classes">Interested in future courses?</label>
+      <input type="radio" name="future_classes" value="yes">Yes
+      <input type="radio" name="future_classes" value="no">No
     </fieldset>
     <button id="submit-btn" type="submit">Add</button>
 </form>
@@ -36,11 +36,12 @@
         <th>Enrolled</th>
         <th>Interested in future classes?</th>
       </thead>
-      <tbody id="student-table">
+      <tbody id="student_table">
         <!-- student table data goes here-->
+        <script src="app.js"></script>
+
       </tbody>
     </table>
   </section>
-<script src="script.js"></script>
   </body>
 </html>

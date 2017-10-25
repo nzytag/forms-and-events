@@ -1,8 +1,8 @@
 'use strict';
 
 
-var form = document.getElementById('sample-form');
-var table = document.getElementById('student-table');
+var form = document.getElementById('sample_form');
+var table = document.getElementById('student_table');
 var data = [];
 
 function Student (first, last, status, plans) {
@@ -22,6 +22,7 @@ function formData(event){
 
   data.push(new Student(first, last, enrolled, future_classes));
   //create our table here
+  createTable();
   form.reset();
 }
 
